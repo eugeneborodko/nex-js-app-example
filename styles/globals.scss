@@ -14,3 +14,15 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.title {
+  &_center {
+    text-align: center;
+  }
+}

@@ -1,0 +1,16 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: darkblue;
+
+  &__link {
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 60px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
